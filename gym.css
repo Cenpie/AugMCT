@@ -1,0 +1,791 @@
+.top {
+    position: relative;
+    width: 1920px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top a.home {
+    text-decoration: none;
+    position: absolute;
+    width: 93px;
+    height: 44px;
+    left: 345px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FED233;
+}
+
+.top a.aboutus {
+    text-decoration: none;
+    position: absolute;
+    width: 138px;
+    height: 44px;
+    left: 495px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.top a.contactus {
+    text-decoration: none;
+    position: absolute;
+    width: 162px;
+    height: 44px;
+    left: 692px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.top a.category {
+    text-decoration: none;
+    position: absolute;
+    width: 134px;
+    height: 44px;
+    left: 913px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.top a.blogs {
+    text-decoration: none;
+    position: absolute;
+    width: 81px;
+    height: 44px;
+    left: 1106px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.top a.recipes {
+    text-decoration: none;
+    position: absolute;
+    width: 114px;
+    height: 44px;
+    left: 1246px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.top a.giftaplan {
+    text-decoration: none;
+    position: absolute; 
+    width: 156px;
+    height: 44px;
+    left: 1419px;
+    top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #454545;
+}
+
+.cart {
+    width: 50px;
+    height: 44px;
+    margin-left: 93%;
+    margin-top: 0.8%;
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    background: #FED233;
+    opacity: 0.6;
+    filter: blur(150px);
+}
+
+.ellipse2 {
+    margin-left: 75%;
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    background: #FED233;
+    opacity: 0.6;
+    filter: blur(277px);
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 3%;
+}
+
+.grid-container > div {
+    text-align: center;
+    font-style: italic;
+}
+
+.grid1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    color: #454545;
+}
+
+.grid2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    color: #454545;
+} 
+
+.leftarrow {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 30%;
+    bottom: 12.5%;
+    height: 93px;
+    width: 93px;
+}
+
+.rightarrow {
+    position: absolute;
+    left: 82%;
+    top: 30%;
+    bottom: 12.5%;
+    height: 93px;
+    width: 93px;
+    background-color: #FFFFFF;
+}
+
+.food {
+    position: absolute;
+    left: 4%;
+    top: 45%;
+    bottom: 12.5%;
+    width: 472px;
+    height: 472px;
+}
+
+.chick {
+    position: absolute;
+    left: 34%;
+    top: 35%;
+    bottom: 12.5%;
+    width: 676px;
+    height: 676px;
+}
+
+.chick2 {
+    position: absolute;
+    left: 72%;
+    top: 45%;
+    bottom: 12.5%;
+    width: 472px;
+    height: 472px;
+}
+
+/* Grid 1 */
+
+.grid-cont {
+    display: grid;
+    text-align: justify;
+    margin-top: 45%;
+}
+
+.ques1 {
+    position: absolute;
+    width: 808px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.para1 {
+    padding-top: 75px;
+    position: absolute;
+    width: 1500px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #5A5A5A;
+}
+
+.para2 {
+    position: absolute;
+    padding-top: 200px;
+    width: 850px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.doctor {
+    position: absolute;
+    padding-left: 1100px;
+    padding-top: 200px;
+    width: 750px;
+    height: 350px;
+}
+
+.para3 {
+    position: absolute;
+    padding-top: 400px;
+    width: 850px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.contact {
+    padding-left: 20px;
+    position: absolute;
+    margin-top: 500px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    background: #454545;
+    color: #FFFFFF;
+}
+
+.bg1 {
+    position: absolute;
+    margin-left: 1550px;
+    padding-left: 150px;
+    width: 200px;
+    height: 475px;
+    background: #FED233;
+}
+
+/* -------------------------Gird 2-------------------------- */
+
+.grid-contain {
+    display: grid;
+    text-align: justify;
+    margin-top: 35%;
+}
+
+.ques2 {
+    position: absolute;
+    padding-left: 50px;
+    width: 900px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.para21 {
+    padding-top: 75px;
+    padding-left: 50px;
+    position: absolute;
+    width: 1000px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #5A5A5A;
+}
+
+.doctor1 {
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 200px;
+    width: 750px;
+    height: 350px;
+}
+
+.points {
+    padding-left: 1000px;
+    padding-top: 180px;
+    width: 700px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.para22 {
+    position: absolute;
+    padding-top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.para23 {
+    position: absolute;
+    padding-top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.para24 {
+    position: absolute;
+    padding-top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.para25 {
+    position: absolute;
+    padding-top: 400px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.contact1 {
+    margin-left: 975px;
+    padding-left: 15px;
+    position: absolute;
+    margin-top: 520px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    background: #454545;
+    color: #FFFFFF;
+}
+
+.bg2 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 225px;
+    /* padding-left: 50px; */
+    width: 750px;
+    height: 360px; 
+    background: #FED233;
+}
+
+/* ------------------------------Grid 3---------------------------------- */
+
+.new-grid {
+    display: grid;
+    text-align: justify;
+    margin-top: 20%;
+}
+
+.ques3 {
+    position: absolute;
+    padding-left: 200px;
+    width: 900px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.para31 {
+    padding-top: 75px;
+    padding-left: 200px;
+    position: absolute;
+    width: 550px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #5A5A5A;
+    opacity: 0.85;
+}
+
+.side {
+    text-align: justify;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-left: 300px;    
+    font-family: 'Open Sans';
+    font-style: normal;
+    width: 200px;
+    height: 114px;
+}
+
+.exp {
+    padding-top: 20px;
+    padding-left: 50px;
+    position: absolute;
+    color: #5A5A5A;
+    width: 450px;
+    height: 114px;
+    font-weight: 200; 
+    font-size: 20px;
+}
+
+.plan {
+    padding-top: 150px;
+    padding-left: 50px;
+    position: absolute;
+    color: #5A5A5A;
+    width: 450px;
+    height: 114px;
+    font-weight: 200; 
+    font-size: 20px;
+}
+
+.results {
+    padding-top: 275px;
+    padding-left: 50px;
+    position: absolute;
+    color: #5A5A5A;
+    width: 450px;
+    height: 114px;
+    font-weight: 200; 
+    font-size: 20px;
+}
+
+.doctor2 {
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 150px;
+    width: 750px;
+    height: 450px;
+}
+
+.bg3 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 1450px;
+    padding-left: 150px;
+    width: 200px;
+    height: 475px;
+    background: #FED233;
+}
+
+.img {
+    position: absolute;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-left: 150px; 
+}
+
+.expimg {
+    position: absolute;
+    margin-top: -15px;
+    padding-top: 50px;
+    padding-left: 60px; 
+    width: 130px;
+    height: 100px;
+}
+
+.planimg {
+    position: absolute;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-left: 70px; 
+    width: 110px;
+    height: 100px;  
+}
+
+.resultimg {
+    position: absolute;
+    margin-top: 240px;
+    padding-top: 50px;
+    padding-left: 80px; 
+    width: 100px;
+    height: 100px;  
+}
+
+/* --------------------------Grid 4-------------------------- */
+
+.new-grid-cont {
+    display: grid;
+    text-align: justify;
+    margin-top: 20%;
+}
+
+.state {
+    position: absolute;
+    padding-left: 200px;
+    width: 900px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.para4 {
+    padding-top: 75px;
+    padding-left: 200px;
+    position: absolute;
+    width: 1000px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #5A5A5A;
+    opacity: 0.85;
+}
+
+.bg4 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 700px;
+    height: 300px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FED233;    
+}
+
+/* --------------------------Grid 4-------------------------- */
+
+.new-grid-contain {
+    display: grid;
+    text-align: justify;
+    margin-top: 35%;
+}
+
+.state1 {
+    position: absolute;
+    padding-left: 200px;
+    width: 900px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.workout1 {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 150px;
+    width: 750px;
+    height: 500px;
+}
+
+.workout2 {
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 150px;
+    width: 750px;
+    height: 500px;
+}
+
+.workout3 {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 1000px;
+    width: 750px;
+    height: 500px;
+}
+
+.workout4 {
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 1000px;
+    width: 750px;
+    height: 500px;
+}
+.work{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 25px;
+}
+.work1 {
+    text-align: justify;
+    margin-top: 600px;
+    padding-top: 70px;
+    padding-left: 200px;    
+    font-family: 'Open Sans';
+    font-style: normal;
+    width: 750px;
+    height: 114px;
+}
+
+.work2 {
+    text-align: justify;
+    margin-top: -275px;
+    padding-left: 1000px;
+    padding-top: 150px;   
+    font-family: 'Open Sans';
+    font-style: normal;
+    width: 750px;
+    height: 114px;
+}
+
+.work3 {
+    text-align: justify;
+    margin-top: 700px;
+    padding-top: 50px;
+    padding-left: 200px;    
+    font-family: 'Open Sans';
+    font-style: normal;
+    width: 750px;
+    height: 114px;
+}
+
+.work4 {
+    text-align: justify;
+    margin-top: -175px;
+    padding-top: 50px;
+    padding-left: 1000px;    
+    font-family: 'Open Sans';
+    font-style: normal;
+    width: 750px;
+    height: 114px;
+}
+
+/* --------------------------Grid 5------------------------------ */
+
+.new-grid-container {
+    display: grid;
+    text-align: justify;
+    margin-top: 15%;
+}
+
+.state2 {
+    position: absolute;
+    padding-left: 200px;
+    width: 900px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    color: #454545;
+}
+
+.para5 {
+    padding-top: 75px;
+    padding-left: 200px;
+    position: absolute;
+    width: 1200px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #5A5A5A;
+    opacity: 0.85;
+}
+
+.bg5 {
+    margin-top: 200px;
+    margin-left: 5%;
+    padding-top: 50px;
+    padding-right: 50px;
+    background-color: #FED233;
+    width: 750px;
+    height: 800px;
+}
+
+.para51 {
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para52 {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para53 {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.para54 {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 10%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.final{
+    position: absolute;
+    margin-top: 13%;
+    text-align: center; 
+    padding-left: 1200px;
+    width: 400px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.trainer {
+    position: absolute;
+    margin-top: 25%;
+    padding-left: 1200px;
+    width: 400px;
+    height: 500px;
+}
